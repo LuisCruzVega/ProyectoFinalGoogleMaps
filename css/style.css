@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+section#Contenido{
+    margin: auto;
+    width: 100%;
+    height: 638px;
+    background-image: url("../img/FondoPantalla.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+div.ImagePosicition{
+    width: 18%;
+    height: 30%;
+    border-radius: 10px;
+    border: 3px solid black;
+    position: relative;
+    right: 40%;
+    top: 420px;
+    background: white;
+}
+img#Position-Image-physical{
+    position: relative;
+    width: 145px;
+    top: 2px;
+}
+div#ContenedorPantallaPrincipal{
+    height: 100%;
+}
+div#containerInformationAll {
+    top: 10px;
+    position: absolute;
+    left: 0px;
+    width: 25%;
+    height: 14%;
+    background-color: rgba(0,0,0,0.6);
+}
+div.Retroceder{
+    display: flex;
+    justify-content:center;
+    right: 150px;
+    width: 10%;
+    height: 100%;
+    border-right: 1px solid #70757a;
+}
+img#Back{
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+div.InformationDireccion {
+    height: 99%;
+    width: 97%;
+    position: relative;
+    left: 20px;
+    bottom: 89px;
+    color: white;
+}
+div.Direccion {
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 7px;
+    border-right: 1px solid #70757a;
+}
+div.Metabuscador {
+    border-bottom: 1px solid rgb(218,220,224);
+    position: relative;
+    left: 25px;
+    bottom: 10px;
+}
+img#MetaBuscador{
+    Position: relative;
+    right: 25px;
+}
+div.EnlaceBuscador a{
+    position: relative;
+    text-decoration: none;
+    color: #BDC1C6;
+    font-size: 11px;
+    right: 40px;
+    font-weight: bold;
+}
+div.EnlaceBuscador a:hover{
+    text-decoration: underline;
+    color: #BDC1C6;
+    font-weight: bold;
+}
+div.date{
+    position: relative;
+    color: #BDC1C6;
+    font-size: 11px;
+    margin-top: -6px;
+    font-weight: bold;
+}
+div.Brujula{
+    top:75%;
+    left: 95%;
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+img#BrujulaC{
+    bottom: 1px;
+    position: relative;
+    right: 1px;
+}
+img#Salir{
+    position: absolute;
+    left: 96%;
+    top: 19px;
+}
+div#Zoom {
+    position: relative;
+    top: 54%;
+    background: #202124;
+    width: 30px;
+    height: 55px;
+    left: 95.9%;
+}
+img.Zoomc {
+    position: relative;
+    bottom: 3px;
+}
+div.Relieves{
+    top: 63%;
+    background: #303134;
+    position: relative;
+    width: 108px;
+    height: 26px;
+    left: 87.8%;
+}
+img.Relieves{
+    position: relative;
+    bottom: 3px;
+    margin-left: 1px;
+}
+/*BOOSTRAP*/
+[class*="col-"]{
+    float:left;
+    /*border: 1px solid black;*/
+    padding: 1px;
+}
+@media(min-width: 1200px){/*Portatiles o pc*/
+    .col-lg-12{
+        width: 100%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-4{
+        width: 33.33333333%;
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .col-lg-9{
+        width: 75%;
+    }
+    .col-lg-7{
+        width: 58.33333333%;
+    }
+    .col-lg-5{
+        width: 41.66666666%;
+    }
+    .col-lg-8{
+        width: 66.66666666%;
+    }
+    .col-lg-2{
+        width: 16.66666666%;
+    }
+    .col-lg-1{
+        width: 8.33333333%;
+    }
+    .col-lg-10{
+        width: 83.33333333%;
+    }
+    .col-lg-11{
+        width: 91.66666666%;
+    }
+    .col-lg-0{
+        display: none !important;
+    }
+}
+/*Pantallas pequeñas, mayores a 992 a 1199 (sm) ---> col-sm*/
+@media (max-width: 1199px) and (min-width: 992px){/*IPAD HECHADO*/
+    .col-md-12{
+        width: 100%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-4{
+        width: 33.33333333%;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-9{
+        width: 75%;
+    }
+    .col-md-7{
+        width: 58.33333333%;
+    }
+    .col-md-5{
+        width: 41.66666666%;
+    }
+    .col-md-8{
+        width: 66.66666666%;
+    }
+    .col-md-2{
+        width: 16.66666666%;
+    }
+    .col-md-1{
+        width: 8.33333333%;
+    }
+    .col-md-10{
+        width: 83.33333333%;
+    }
+    .col-md-11{
+        width: 91.66666666%;
+    }
+    .col-md-0{
+        display: none !important;
+    }
+    div#containerInformationAll {
+        width: 30%;
+        height: 12%;
+    }
+    section#Contenido {
+        height: 763px;
+    }
+    div.ImagePosicition {
+        right: 38%;
+        width: 21%;
+        top: 508px;
+    }
+    img#BrujulaC {
+        right: 37px;
+    }
+    img#Salir {
+        left: 93%;
+    }
+    div#Zoom {
+        left: 92.5%;
+    }
+    div.Relieves {
+        left: 81.8%;
+    }
+    img#Position-Image-physical {
+        top: 9px;
+        width: 190px;
+    }
+}
+/*Pantallas pequeñas, mayores a 768 a 991 (sm) ---> col-sm*/
+@media (max-width: 991px) and (min-width: 761px){/*IPAD NORMAL*/
+    .col-sm-12{
+        width: 100%;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+    .col-sm-4{
+        width: 33.33333333%;
+    }
+    .col-sm-3{
+        width: 25%;
+    }
+    .col-sm-9{
+        width: 75%;
+    }
+    .col-sm-7{
+        width: 58.33333333%;
+    }
+    .col-sm-5{
+        width: 41.66666666%;
+    }
+    .col-sm-8{
+        width: 66.66666666%;
+    }
+    .col-sm-2{
+        width: 16.66666666%;
+    }
+    .col-sm-1{
+        width: 8.33333333%;
+    }
+    .col-sm-10{
+        width: 83.33333333%;
+    }
+    .col-sm-11{
+        width: 91.66666666%;
+    }
+    .col-sm-0{
+        display: none !important;
+    } 
+    section#Contenido {
+        height: 1019px;
+    }
+    div#containerInformationAll {
+        width: 41%;
+        height: 9%;
+    }
+    img#Salir {
+        left: 93%;
+    }
+    div.ImagePosicition {
+        width: 41%;
+        right: 28%;
+        top: 694px;
+    }
+    img#Position-Image-physical {
+        top: 0px;
+        width: 284px;
+    }
+    div.Relieves {
+        top: 66%;
+        left: 78.8%;
+    }
+    div#Zoom {
+        left: 92.9%;
+        top: 59%;
+        height: 63px;
+    }
+    div.Brujula {
+        top: 83%;
+        left: 91%;
+    }
+}
+/*Pantallas extra pequeñas, menores a 768 xs--> col-xs*/
+@media (max-width: 767px){/*Cel parado*/
+    .col-xs-12{
+        width: 100%;
+    }
+    .col-xs-6{
+        width: 50%;
+    }
+    .col-xs-4{
+        width: 33.33333333%;
+    }
+    .col-xs-3{
+        width: 25%;
+    }
+    .col-xs-9{
+        width: 75%;
+    }
+    .col-xs-7{
+        width: 58.33333333%;
+    }
+    .col-xs-5{
+        width: 41.66666666%;
+    }
+    .col-xs-8{
+        width: 66.66666666%;
+    }
+    .col-xs-2{
+        width: 16.66666666%;
+    }
+    .col-xs-1{
+        width: 8.33333333%;
+    }
+    .col-xs-10{
+        width: 83.33333333%;
+    }
+    .col-xs-11{
+        width: 91.66666666%;
+    }
+    .col-xs-0{
+        display: none !important;
+    }
+    section#Contenido {
+        height: 721px;
+        width: 105%;
+    }
+    div#containerInformationAll {
+        width: 85%;
+    }
+    img#Salir {
+        left: 88%;
+    }
+    div.ImagePosicition {
+        width: 63%;
+        height: 30%;
+        right: 15%;
+        top: 478px;
+    }
+    img#Position-Image-physical {
+        width: 186px;
+    }
+    img#BrujulaC {
+        top :17px;
+        right: 35px
+    }
+    div#Zoom {
+        top: 55%;
+        left: 88.9%;
+    }
+    div.Relieves {
+        top: 63%;
+        left: 61.8%;
+    }
+}
+@media (min-width:667px) and (max-width:767px){
+    .col-xp-12{/*Cel hechado*/
+        width: 100%;
+    }
+    .col-xp-6{
+        width: 50%;
+    }
+    .col-xp-4{
+        width: 33.33333333%;
+    }
+    .col-xp-3{
+        width: 25%;
+    }
+    .col-xp-9{
+        width: 75%;
+    }
+    .col-xp-7{
+        width: 58.33333333%;
+    }
+    .col-xp-5{
+        width: 41.66666666%;
+    }
+    .col-xp-8{
+        width: 66.66666666%;
+    }
+    .col-xp-2{
+        width: 16.66666666%;
+    }
+    .col-xp-1{
+        width: 8.33333333%;
+    }
+    .col-xp-10{
+        width: 83.33333333%;
+    }
+    .col-xp-11{
+        width: 91.66666666%;
+    }
+    .col-xp-0{
+        display: none !important;
+    }
+    section#Contenido {
+        height: 394px;
+    }
+    div#containerInformationAll {
+        width: 51%;
+        height: 25%;
+    }
+    div.ImagePosicition {
+        width: 38%;
+        height: 59%;
+        right: 28%;
+        top: 139px;
+    }
+    img#Position-Image-physical {
+        width: 154px;
+    }
+    img#Salir {
+        left: 92%;
+    }
+    img#BrujulaC {
+        right: 20px;
+        bottom: 62px;
+    }
+    div#Zoom {
+        top: 14%;
+        left: 92%;
+    }
+    div.Relieves {
+        top: 29%;
+        left: 76.8%;
+    }
+    div.Brujula {
+        left: 93%;
+    }
+}
